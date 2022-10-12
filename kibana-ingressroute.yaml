@@ -9,7 +9,7 @@ spec:
   entryPoints:
     - web
   routes:
-    - match: Host(`kibana.localhost`)
+    - match: Host(`kibana.doh.gov.ph`)
       kind: Rule
       services:
         - name: kibana-kibana
